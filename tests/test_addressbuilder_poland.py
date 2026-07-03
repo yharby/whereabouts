@@ -16,7 +16,7 @@ def test_config_loader():
 
     assert details['data']['db_name'] == 'db_test_poland'
     assert details['data']['folder'] == 'geodb'
-    assert details['data']['filepath'] == 'tests/test_datapoland.csv'
+    assert details['data']['filepath'] == 'example_data/test_datapoland.csv'
 
     assert details['geocoder']['states'] == [] 
     assert details['geocoder']['matchers'] == ['standard', 'trigram']

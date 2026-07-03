@@ -19,7 +19,7 @@ def test_config_loader() -> None:
 
     assert details['data']['db_name'] == 'db_test'
     assert details['data']['folder'] == 'geodb'
-    assert details['data']['filepath'] == 'tests/test_data3056.parquet'
+    assert details['data']['filepath'] == 'example_data/test_data3056.parquet'
 
     assert details['geocoder']['states'] == []
     assert details['geocoder']['matchers'] == ['standard', 'trigram']
