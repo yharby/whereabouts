@@ -29,4 +29,3 @@ six==1.17.0
 threadpoolctl==3.6.0
 tqdm==4.67.3
 urllib3==2.7.0
--e file:///Users/alexanderlee/Desktop/Github/whereabouts
